@@ -1,0 +1,313 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* navbar */
+.navbar{
+    display: flex;
+    padding-left: 65px;
+    background-color: rgb(173, 161, 151);
+}
+
+/* titre navbar */
+h1{
+    margin-top: 10px;
+    color: rgb(49, 18, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* bare de recherche */
+.re{
+    margin-left: 640px;
+    margin-top: 10px;
+    background-color: rgb(173, 161, 151);
+    border: 1px solid rgb(49, 18, 0);
+    width: 275px;
+    height: 30px;
+}
+
+/* boutton recherche */
+.sch{
+    color: rgb(49, 18, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+/* en tête */
+.header{
+    background-color: rgb(250, 117, 8);
+}
+
+/* ajustement de l'ensemble des éléments */
+.header ul{
+    display: flex;
+    list-style-type: none;
+    margin-left: 70px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/* ajustement du premier button */
+#ho a{
+    background-color: rgb(49, 18, 0);
+    color: white;
+}
+
+/* ajustement des 3 buttons */
+.header a{
+    text-decoration: none;
+    color:rgb(49, 18, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 15px;
+}
+
+/* card numéro une */
+/* fond de la card */
+.card{
+    display: flex;
+    background-color: rgb(65, 57, 53);
+    width: 1519px;
+}
+
+/* ajustement de l'image de la card */
+.ig{
+    margin-left: 125px;
+    width: 670px;
+}
+
+/* ajustement de l'ensemble des buttons  */
+.card ul{
+    display: flex;
+    padding: unset;
+    list-style-type: none;
+    font-size: 85px;
+    margin-top:0px;
+    width: 10px;
+}
+
+/* ajustement du premier button */
+.card ul li a{
+    color: white;
+    background-color: rgb(109, 72, 55);
+    padding: 0px 10px;
+    text-decoration: none;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+/* ajustement des 4 buttons restant */
+#un a{
+    color: rgb(49, 18, 0);
+    background-color: rgb(173, 161, 151);
+    padding: 0px 10px;
+}
+
+/* ajustement du titre de la card */
+.text h2{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 152px;
+    font-weight: normal;
+    font-size: 45px;
+    margin-left: 20px;
+}
+
+/* ajustement du text de la card */
+.text p{
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 20px;
+    font-size: 27px;
+}
+
+/* cards de chaque domaine */
+/* ajustement de l'ensemble de la cards */
+.cards{
+    justify-content: space-evenly;
+    display: flex;
+    list-style-type: none;
+    background-color: rgb(173, 161, 151);
+    margin: 0px;
+}
+
+/* ajustement cards 1 */
+#f { 
+    margin-top: 50px;
+}
+
+/* ajsutement cards 2 */
+#m{
+    margin-top: 50px;
+}
+
+/* ajustement card 3 */
+#mi{
+    margin-top: 50px;
+}
+
+/* ajustement cards 4 */
+#o{
+    margin-top: 50px;
+}
+
+/* ajustement de titre des cards */
+.cards h2{
+    color: rgb(49, 18, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+    margin-top: unset;
+    margin-bottom: 0px;
+}
+
+/* ajustement de text des cards  */
+.cards p{
+    color: rgb(49, 18, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: unset;
+}
+
+/* ajustement du premier button de la cards */
+.b button{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(65, 57, 53);
+    border: none;
+}
+
+/* ajustement des 3 buttons restant */
+button{
+    width: 100px;
+    height: 20px;
+    background-color: rgb(22, 138, 132);
+    border: none;
+}
+
+/* l'ensemble cercles + zone de texte */
+.lt{
+    display: flex;
+    background-color: rgb(173, 161, 151);
+    padding-bottom: 85px;
+}
+
+/* titre des cercles */
+.rond h2{
+    margin-left: 135px;
+    background-color: rgb(173, 161, 151);
+    color: rgb(49, 18, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* ajustement du 1er cercles */
+.ro{
+    border-radius: 50%;
+    margin-left: 140px;
+    width: 230px;
+}
+
+/* ajustement du 2e cercles */
+.rb{
+    border: 1px solid rgb(65, 57, 53);
+    border-radius: 50%;
+    margin-left: -55px;
+    width: 215px;
+}
+
+/* ajustement du 3e cercles */
+.rbl{
+    border: 1px solid rgb(65, 57, 53);
+    border-radius: 50%;
+    margin-left: -25px;
+    width: 215px;
+}
+
+/* partie zone de texte */
+/* titre de texte */
+.carre h2{
+    margin-left:380px ;
+    background-color: rgb(173, 161, 151);
+    color: rgb(49, 18, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* zone de texte */
+.carre input{
+    color: white;
+    margin-left: 380px;
+    margin-top: 10px;
+    background-color: rgb(49, 18, 0);
+    width: 275px;
+    height: 180px;
+}
+
+/* bare de chercher */
+/* l'ensemble de la bare */
+.ldb{
+    background-color: rgb(250, 117, 8);
+    display: -webkit-box;
+}
+
+/* la zone de recherche */
+.ldb input{
+    background-color: rgb(49, 18, 0);
+    margin-left: 1113px;
+    width: 215px;
+    height: 33px;
+    border: none;
+    margin-top: 0px;
+}
+
+/* le button de recherche */
+.ldb a{
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    background-color: rgb(49, 18, 0);
+    padding-bottom: 10px;
+}
+
+/* et enfin le footer */
+/* l'ensemble du footer */
+footer{
+    display: flex;
+    background-color: rgb(49, 18, 0);
+}
+
+/* les titres */
+footer h3 {
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+/* les buttons */
+footer ul{
+    margin-left: 95px;
+    margin-top: -20px;
+}
+
+/* ajustement du dernier JOIN IN l'ensemble */
+.jo{
+    margin-left: 325px;
+    list-style-type: none;
+}
+
+/* ajustement des 3 points de JOIN IN */
+.jo li{
+    display: flex ;
+}
+
+/* ajustement de chaques points */
+footer li{
+    color: rgb(250, 117, 8);
+    margin-left: 20px;
+}
+
+/* ajustement de chaques petites phrases */
+footer li a{
+    color: rgb(30, 146, 241);
+    text-decoration: none;
+}
